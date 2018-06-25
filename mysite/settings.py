@@ -10,6 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
+ALLOWED_HOSTS=['127.0.0.1', '.pythonanywhere.com']
+
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
